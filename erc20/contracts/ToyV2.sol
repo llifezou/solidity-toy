@@ -6,7 +6,7 @@ import "./ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
-contract Toy is ERC20, Ownable {
+contract ToyV2 is ERC20, Ownable {
     using SafeMath for uint256;
 
     function initialize(string memory name_, string memory symbol_, uint256 maxTotalSupply_) public {
